@@ -1,0 +1,32 @@
+.header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .h-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .client-button, .manager-button {
+    height: 15vh;
+    width: 10vw;
+    margin-right: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .client-button {
+    background-color: #695757;
+    color: #fff;
+  }
+  
+  .manager-button {
+    background-color: #695757;
+    color: #fff;
+  }
+  

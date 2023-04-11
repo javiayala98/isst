@@ -1,0 +1,93 @@
+.lock-registry-container{
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  background-color: #333;
+}
+
+.lel-lock-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+  background-color: rgb(190, 181, 181);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  width: 40%;
+  height: auto;
+}
+
+.lel-lock-card h2 {
+  margin: 10px 0;
+}
+
+.lel-lock-card input[type='text'] {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+}
+
+.lock-info {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  flex-direction: row;
+}
+
+.lock-info p {
+  margin: 0;
+  margin-right: 10px;
+}
+
+.info-button {
+  width: 30px;
+  height: 30px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+
+.register-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-button {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.back-button i {
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .lr-lock-card {
+    width: 80%;
+  }
+}

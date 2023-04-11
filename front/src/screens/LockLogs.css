@@ -1,0 +1,59 @@
+.ll-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .ll-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000%;
+  }
+  
+  .ll-logs-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+  }
+  .ll-logs-card {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    padding: 20px;
+    background-color: rgb(190, 181, 181);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  }
+  
+  .ll-log-details-card {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 75%;
+    padding: 20px;
+    background-color: rgb(190, 181, 181);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  }
+  .ll-log-button{
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 2%;
+  }
+  
+  .nav-buttons{
+    border-radius: 10px;
+    position: relative;
+    margin-right: 35%;
+    margin-left: 35%;
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+  }
