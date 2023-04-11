@@ -1,0 +1,24 @@
+.l-lock-card {
+  margin: 5%;
+  position: relative;
+  height: 200px;
+  background-color: rgb(190, 181, 181);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  text-align: center;
+  width: 20%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+
+.l-lock-card button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

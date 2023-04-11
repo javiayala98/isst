@@ -1,0 +1,13 @@
+.sp-lock-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.sp-lock-card {
+  flex-basis: calc(20% - 20px);
+  margin: 10px;
+}
+
+
